@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+  margin-top: 73px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.users{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 61px;
+  list-style: none;
+  opacity: 0.6;
+}
+
+.img {
+  width: 160px;
+  height: 160px;
+  border: 4px transparent solid;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* .img:hover{
+  border: 2px green solid;
+  opacity: 1;
+} */
+
+.users p{
+  text-align: center;
+  color: #9C9C9C;
+}
+
+.users:hover{
+  opacity: 1.0;
+}
+
+.users:hover p{
+  color: white;
+}
+
+.users:hover img{
+  opacity: 1.0;
+  transition: 0.9s;
+  border: 4px white solid;
+}
+
+/* .users:hover,.users p:hover{
+  opacity: 1.0;
+} */
+
+.button-perfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: transparent;
+  height: 180px;
+}
+
+.button-perfil-click{
+  background: none;
+  color: white;
+  height: 50px;
+  width: 206px;
+  font-size: 16px;
+  padding: 14px 44px;
+  border-radius: 12px;
+  border: white 1px solid;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button-perfil-click:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  transform: scale(1.15);
+}
+
+body{
+  background-color: #121214;
+}
